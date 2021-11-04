@@ -164,6 +164,10 @@ PRODUCT_PACKAGES += \
 include vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk
 include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
 
+# Doze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.clearkey
