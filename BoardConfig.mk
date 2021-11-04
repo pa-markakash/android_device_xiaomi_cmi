@@ -79,7 +79,7 @@ TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.xiaomi_cm
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
-DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
+DEVICE_MATRIX_FILE += device/qcom/common/compatibility_matrix.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
