@@ -1,5 +1,2 @@
-# DPM
-persist.vendor.dpm.feature=11
-
 # Paranoid Doze
 ro.sensor.pickup=xiaomi.sensor.pickup
