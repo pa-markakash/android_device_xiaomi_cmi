@@ -158,12 +158,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
-# Display
--include hardware/qcom-caf/sm8250/display/config/display-board.mk
--include hardware/qcom-caf/sm8250/display/config/display-product.mk
-include vendor/qcom/opensource/commonsys-intf/display/config/display-interfaces-product.mk
-include vendor/qcom/opensource/commonsys-intf/display/config/display-product-system.mk
-
 # Doze
 PRODUCT_PACKAGES += \
     ParanoidDoze
@@ -319,6 +313,7 @@ PRODUCT_PACKAGES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
+    display \
     perf
 
 # RenderScript
