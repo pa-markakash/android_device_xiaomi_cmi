@@ -317,6 +317,10 @@ TARGET_BOARD_PLATFORM := kona
 PRODUCT_PACKAGES += \
     libjson
 
+# QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
