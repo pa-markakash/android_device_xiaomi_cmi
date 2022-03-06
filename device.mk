@@ -184,8 +184,6 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc
 
 # Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
-
 PRODUCT_PACKAGES += \
     AOSPACmiFrameworks \
     AOSPACmiSettings \
