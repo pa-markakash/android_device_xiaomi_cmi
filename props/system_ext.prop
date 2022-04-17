@@ -1,2 +1,6 @@
 # Paranoid Doze
 ro.sensor.pickup=xiaomi.sensor.pickup
+
+# GPS
+persist.sys.gps.fence=true
+persist.sys.gps.polaris=true

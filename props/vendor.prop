@@ -171,6 +171,9 @@ persist.rmnet.data.enable=true
 persist.vendor.data.iwlan.enable=true
 ro.vendor.use_data_netmgrd=true
 
+# PASR
+vendor.pasr.activemode.enabled=true
+
 # RCS
 persist.rcs.supported=1
 
