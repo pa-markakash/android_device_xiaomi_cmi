@@ -215,10 +215,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     usb \
     vibrator
 
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
